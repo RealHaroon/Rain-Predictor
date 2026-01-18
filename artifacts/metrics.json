@@ -1,0 +1,77 @@
+{
+  "cv": {
+    "test_roc_auc": [
+      0.9263564395912514,
+      0.943842287870849,
+      0.9229651256651341,
+      0.8358521104760052,
+      0.9627010359823425
+    ],
+    "test_avg_precision": [
+      0.8143052214591894,
+      0.8914684052639472,
+      0.8245222369512291,
+      0.5739108504681986,
+      0.869499868533735
+    ],
+    "test_bal_acc": [
+      0.8323972129115063,
+      0.879743037017072,
+      0.8478949798522498,
+      0.7569030757726324,
+      0.8994913498026094
+    ]
+  },
+  "test": {
+    "test_roc_auc": 0.9340795293557842,
+    "test_avg_precision": 0.9167424724178964,
+    "test_balanced_accuracy": 0.8662179757540365,
+    "n_train": 48216,
+    "n_test": 4321,
+    "features": [
+      "temperature_2m",
+      "relative_humidity_2m",
+      "pressure_msl",
+      "cloud_cover",
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "precipitation",
+      "rain",
+      "hour",
+      "month",
+      "dayofyear",
+      "rain_lag_1h",
+      "rain_lag_3h",
+      "rain_lag_6h",
+      "rain_lag_12h",
+      "rain_lag_24h",
+      "precipitation_lag_1h",
+      "precipitation_lag_3h",
+      "precipitation_lag_6h",
+      "precipitation_lag_12h",
+      "precipitation_lag_24h",
+      "relative_humidity_2m_lag_1h",
+      "relative_humidity_2m_lag_3h",
+      "relative_humidity_2m_lag_6h",
+      "pressure_msl_lag_1h",
+      "pressure_msl_lag_3h",
+      "pressure_msl_lag_6h",
+      "rain_rollsum_3h",
+      "rain_rollmean_3h",
+      "rain_rollsum_6h",
+      "rain_rollmean_6h",
+      "rain_rollsum_12h",
+      "rain_rollmean_12h",
+      "rain_rollsum_24h",
+      "rain_rollmean_24h",
+      "precipitation_rollsum_6h",
+      "precipitation_rollmean_6h",
+      "precipitation_rollsum_12h",
+      "precipitation_rollmean_12h",
+      "precipitation_rollsum_24h",
+      "precipitation_rollmean_24h"
+    ],
+    "test_start": "2025-07-03 23:00:00",
+    "train_end": "2025-07-02 23:00:00"
+  }
+}
