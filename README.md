@@ -190,4 +190,4 @@ Choose a license (MIT is common for portfolio projects). Add a `LICENSE` file if
 
 ***
 
-If you want, paste your current `requirements.txt` (or let me infer it from your imports) and I’ll format it cleanly for the repo, plus add “Quickstart” commands exactly matching your filenames.
+.
